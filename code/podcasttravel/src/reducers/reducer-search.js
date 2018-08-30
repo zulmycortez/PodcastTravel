@@ -3,7 +3,7 @@ import { FETCH_SEARCH } from "../actions";
 
 export default function(state = {}, action) {
   switch (action.type) {
-    case FETCH_POSTS:
+    case FETCH_SEARCH:
       return _.mapKeys(action.payload.data, "id");
     default:
       return state;

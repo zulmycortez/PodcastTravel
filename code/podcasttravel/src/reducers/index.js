@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 import { reducer as formReducer } from "redux-form";
-import SearchReducer from "./search-posts";
+import SearchReducer from "./reducer-search.js";
 
 const rootReducer = combineReducers({
   search: SearchReducer,
